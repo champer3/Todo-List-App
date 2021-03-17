@@ -31,7 +31,7 @@ function addTodo(event){
     trashButton.classList.add('trash-btn');
     todoDiv.appendChild(trashButton);
 
-    //Append to list
+    //Append todoDiv to list
     todoList.appendChild(todoDiv);
 
     //Clear todoInput value
